@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ChallengeModelStoreContainer" CdmEntityContainer="Db_Challenge">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ChallengeModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+          <ScalarProperty Name="Name_User" ColumnName="Name_User" />
+          <ScalarProperty Name="Type_User" ColumnName="Type_User" />
+          <ScalarProperty Name="Pass_User" ColumnName="Pass_User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
